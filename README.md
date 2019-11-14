@@ -1,2 +1,2 @@
-# estudo-front-bikcraft
+# Bikcraft
 Projeto de estudos front-end
