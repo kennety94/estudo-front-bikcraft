@@ -38,8 +38,42 @@
 	/* Introdução */
 	.introducao {
 		margin-top: 0;
-		padding-top: 20px;
+		padding-top: 40px;
 		background: url("../img/bg-mobile.jpg") no-repeat center;
 		background-size: cover;
+	}
+
+	.introducao h1 {
+		font-size: 36px;
+	}
+
+	/* Qualidade Home*/
+	.qualidade::after {
+		right: 66px;
+	}
+
+	.qualidade-lista li {
+		padding: 0 10px;
+	}
+
+	.qualidade::after {
+		display: none;
+	}
+
+	/* Footer */
+	.footer-redes ul li a {
+		border: 3px solid #fec63e;
+		display: block;
+		padding: 6px;
+	}
+
+	.footer-redes ul li a img{
+		width: 26px;
+		height: 26px;
+	}
+
+	/* Call */
+	.call {
+		padding-top: 10px;
 	}
 }
