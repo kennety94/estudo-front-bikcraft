@@ -47,10 +47,10 @@
 		height: 49px;
 	}
 	
-	} /* Final do estilo para tablets */
+} /* Final do estilo para tablets */
 	
-	/*Estilo para smartphone*/
-	@media only screen and (max-width: 787px) {
+/*Estilo para smartphone*/
+@media only screen and (max-width: 787px) {
 	
 	/*Header*/
 	.header {
@@ -160,5 +160,11 @@
 	.orcamento-dados ul {
 		padding-right: 0px;
 	}
+
+	/* Contato */
+	.contato-form {
+		padding-right: 0;
+		margin-bottom: 40px;
+	}
 	
-	} /* Final do estilo para smartphone */
+} /* Final do estilo para smartphone */
