@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portifolio.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -36,19 +37,34 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" data-slide="quote">
         <blockquote class="quote-clientes">
             <p>"No mundo atual, a contínua expansão de noass aatividade cumpre um papel essencial na formulação da
                 gestão inovadora da qual fazemos parte."</p>
             <cite>Barabara Moss</cite>
         </blockquote>
+        <blockquote class="quote-clientes">
+            <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius perspiciatis, doloremque nemo ut
+                provident dolore consectetur impedit aliquam praesentium."</p>
+            <cite>Fulano de Tal</cite>
+        </blockquote>
+        <blockquote class="quote-clientes">
+            <p>"Mussum Ipsum, cacilds vidis litro abertis. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua
+                vidis. Per aumento de cachacis, eu reclamis."</p>
+            <cite>Mussum</cite>
+        </blockquote>
     </section>
 
     <section class="portifolio">
-        <div class="container">
+        <div class="container" data-slide="portifolio">
             <ul class="portifolio-lista">
                 <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta retro"></li>
                 <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio"></li>
+                <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte"></li>
+            </ul>
+            <ul class="portifolio-lista">
+                <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio"></li>
+                <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta retro"></li>
                 <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte"></li>
             </ul>
         </div>
@@ -102,6 +118,9 @@
         </div>
 
     </footer>
+
+    <script src="./js/simple-slide.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
